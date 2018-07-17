@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Pjvoice2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1CAF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Pjvoice2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Pjvoice2 （可以录音的xyy11）\Pjvoice2Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1CAF.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1CB0.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Pjvoice2.pdb" /debug /machine:I386 /out:"Debug/Pjvoice2.exe" /pdbtype:sept 
+".\Debug\backward.obj"
+".\Debug\baum.obj"
+".\Debug\hmmrand.obj"
+".\Debug\hmmutils.obj"
+".\Debug\Lbg.obj"
+".\Debug\nrutil.obj"
+".\Debug\Pjvoice2.obj"
+".\Debug\Pjvoice2Dlg.obj"
+".\Debug\rec.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ViterbiLog.obj"
+".\Debug\Pjvoice2.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1CB0.tmp"
+<h3>Output Window</h3>
+Compiling...
+Pjvoice2Dlg.cpp
+E:\Pjvoice2 （可以录音的xyy11）\Pjvoice2Dlg.cpp(344) : warning C4305: '=' : truncation from 'const double' to 'float'
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1EA4.tmp" with contents
+[
+/nologo /o"Debug/Pjvoice2.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\backward.sbr"
+".\Debug\baum.sbr"
+".\Debug\hmmrand.sbr"
+".\Debug\hmmutils.sbr"
+".\Debug\Lbg.sbr"
+".\Debug\nrutil.sbr"
+".\Debug\Pjvoice2.sbr"
+".\Debug\Pjvoice2Dlg.sbr"
+".\Debug\rec.sbr"
+".\Debug\ViterbiLog.sbr"]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1EA4.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Pjvoice2.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
